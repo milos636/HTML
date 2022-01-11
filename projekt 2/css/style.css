@@ -51,3 +51,11 @@ a:hover, a:active {
     text-decoration: none;
     display: inline-block;
 }
+.btn-accent {
+    background: #ef5839;
+    color: #fff;
+}
+.btn-whitte {
+    background: #fff;
+    color: #ef5839;
+}
