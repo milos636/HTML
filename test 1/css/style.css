@@ -1,0 +1,27 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ header, main, footer {
+    margin: auto;
+    width: 80%;
+    /* padding: 100px 100px; */
+    height: 200px;
+ }
+ header {
+     background-color: #5151b8;
+     position: relative;
+ }
+ main {
+     background-color: #0fe02b;
+ }
+footer {
+    background-color: #ffd900;
+}
+img {
+    height: 150px;
+    position: absolute;
+    bottom: 5px; 
+    right: 50px;
+}
