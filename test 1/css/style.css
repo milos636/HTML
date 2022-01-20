@@ -3,6 +3,29 @@
     margin: 0;
     box-sizing: border-box;
  }
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul {
+    display: flex;
+    background: deepskyblue;
+    justify-content: flex-end;
+}
+nav ul li {
+    list-style-type: none;
+    width: 120px;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+nav a:hover {
+    background: #1565c0;
+}
+
  header, main, footer {
     margin: auto;
     width: 80%;
@@ -31,4 +54,10 @@ footer img {
     position: absolute;
     top: -70px; 
     right: 50px;
+}
+
+@media all and (max-width: 800px) {
+    nav ul {
+        justify-content: space-around;
+    }
 }
