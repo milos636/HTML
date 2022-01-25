@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* max-width: 100%; */
+}
+header {
+    background: chocolate;
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    /* max-width: 100%; */
+}
+header nav ul a {
+    padding: 15px 30px;
+}
+main {
+    display: flex;
+    gap: 30px;
+}
+footer h2 {
+    text-align: center;
+}
