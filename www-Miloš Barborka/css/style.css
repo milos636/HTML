@@ -22,7 +22,6 @@ header nav ul a {
     /* margin: 4px; */
     font-size: 18px;
     text-decoration: none;
-    /* background-color: rgb(255, 208, 80); */
     color: black;
 }
 header nav a:hover {
@@ -36,19 +35,27 @@ main {
     gap: 100px;
     font-size: 15px;
 }
+
 footer {
     background: chocolate;
 }
 footer h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 @media all and (max-width:800px){
-    nav ul {
+    header nav ul {
         flex-direction: column;
+        margin-left: 81%;
     }
-    nav ul a {
-        /* flex-direction: column; */
+    header nav ul a {
+        display: flex;
+        justify-content: flex-end;
+    }
+    header nav a:hover { 
+        background-color: coral;
+        color: rgb(255, 255, 255);
+        font-size: 19px; 
     }
     main {
         flex-direction: column;
